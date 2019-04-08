@@ -14,8 +14,6 @@ constitutes my personal configuration of `st`.
 * All [scrollback](https://st.suckless.org/patches/scrollback/) patches have
   been applied.
 * The colorscheme has been set to [gruvbox](https://github.com/morhetz/gruvbox).
-* The font has been set to [gohufont](http://font.gohu.org/).
-* The cursor has been configured to be a red I-beam style.
 * Experimental support for sixel graphics has been added. There are several
   known issues:
 	* Entering `clear` causes *all* sixels to be deleted from scrollback.
