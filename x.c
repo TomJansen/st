@@ -1842,6 +1842,7 @@ run(void)
 		}
 
 		if (FD_ISSET(xfd, &rfd))
+		        XPending(xw.dpy);
 			xev = actionfps;
 
 		clock_gettime(CLOCK_MONOTONIC, &now);

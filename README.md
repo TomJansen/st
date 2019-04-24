@@ -6,11 +6,6 @@ applying appropriate patching and source modifications. This repository
 constitutes my personal configuration of `st`.
 
 ## Changes From the Default:
-
-![st displaying a gnuplot test to demonstrate sixel graphics support](./README.md.d/sixeldemo.png)
-
-*st displaying a gnuplot test to demonstrate sixel graphics support*
-
 * All [scrollback](https://st.suckless.org/patches/scrollback/) patches have
   been applied.
 * The colorscheme has been set to [gruvbox](https://github.com/morhetz/gruvbox).
@@ -42,6 +37,3 @@ All modifications that constitute my own own original work are (c) 2018 Charles
 Daniels, All Rights Reserved, and may be considered available under the terms
 of the suckless license.
 
-## See Also
-
-The original README file for `st` may be viewed in the file `orig_README`.
