@@ -54,5 +54,11 @@ int sixel_parser_parse(sixel_state_t *st, unsigned char *p, size_t len);
 int sixel_parser_set_default_color(sixel_state_t *st);
 int sixel_parser_finalize(sixel_state_t *st, unsigned char *pixels);
 void sixel_parser_deinit(sixel_state_t *st);
-
+/*
+ * Primary color hues:
+ *  blue:  0 degrees
+ *  red:   120 degrees
+ *  green: 240 degrees
+ */
+int hls_to_rgb(int hue, int lum, int sat);
 #endif

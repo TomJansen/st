@@ -4,7 +4,7 @@
 
 include config.mk
 
-SRC = st.c x.c sixel.c sixel_hls.c
+SRC = st.c x.c sixel.c
 OBJ = $(SRC:.c=.o)
 
 all: options st
@@ -27,7 +27,7 @@ x.o: arg.h st.h win.h
 $(OBJ): config.h config.mk
 
 st: $(OBJ)
-	$(CC) $(OBJ) $(STLDFLAGS) -o $@ 
+	$(CC) $(OBJ) $(STLDFLAGS) -o $@
 
 clean:
 	rm -f st $(OBJ) st-$(VERSION).tar.gz
